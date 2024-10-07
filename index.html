@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pattern</title>
+		<style>
+			body {
+				background: #131313;
+				color: #cecece;
+			}
+			#app-name,
+			#name {
+				color: rgb(172, 49, 221);
+			}
+			#app-link {
+				text-decoration: none;
+				color: rgb(172, 49, 221);
+				font-size: 1.2rem;
+				font-weight: 600;
+				transition: 0.2s;
+			}
+			#app-link:hover {
+				filter: brightness(120%);
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			Olá <span id="name">${name}</span>, bem vindo ào
+			<em><span id="app-name">Trackit</span>, seu sistema de chamados</em>
+		</h1>
+		<h3>
+			Seu cadastro foi concluído com sucesso e você já pode acessar a plataforma
+		</h3>
+		<a
+			id="app-link"
+			href="http://google.com.br"
+			target="_blank"
+			rel="noopener noreferrer"
+			>Ir para o site</a
+		>
+	</body>
+</html>
